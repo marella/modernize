@@ -25,14 +25,6 @@ body {
 }
 
 /**
- * Render the `main` element consistently in IE.
- */
-
-main {
-  display: block;
-}
-
-/**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
@@ -219,14 +211,6 @@ progress {
 }
 
 /**
- * Remove the default vertical scrollbar in IE 10+.
- */
-
-textarea {
-  overflow: auto;
-}
-
-/**
  * Correct the cursor style of increment and decrement buttons in Safari.
  */
 
@@ -280,15 +264,4 @@ details {
 
 summary {
   display: list-item;
-}
-
-/* Misc
-   ========================================================================== */
-
-/**
- * Add the correct display in IE 10+.
- */
-
-template {
-  display: none;
 }
