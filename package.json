@@ -1,25 +1,27 @@
 {
   "name": "modernize",
   "version": "0.1.0",
-  "description": "normalize.css - (< IE 11 fixes) + basic styling for modern browsers",
+  "description": "normalize.css for modern browsers",
+  "files": [
+    "*.css"
+  ],
   "main": "modernize.css",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "style": "modernize.css",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/styli/modernize.git"
+    "url": "git+https://github.com/marella/modernize.git"
   },
-  "keywords": [
-    "css",
-    "normalize",
-    "reboot",
-    "normalize.css"
-  ],
-  "author": "Ravindra Marella <mv.ravindra@yahoo.com>",
-  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/styli/modernize/issues"
+    "url": "https://github.com/marella/modernize/issues"
   },
-  "homepage": "https://github.com/styli/modernize"
+  "homepage": "https://github.com/marella/modernize/blob/main/modernize.css",
+  "keywords": [
+    "normalize.css",
+    "normalize",
+    "reset",
+    "css",
+    "browser",
+    "style"
+  ]
 }

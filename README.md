@@ -1,18 +1,51 @@
-# modernize
-normalize.css - (< IE 11 fixes) + basic styling for modern browsers
+# [modernize](https://github.com/marella/modernize/blob/main/modernize.css)
 
-## Browser Support
-- Chrome (latest)
-- Firefox (latest)
-- Opera (latest)
-- Safari 6+
-- Internet Explorer 11+
+normalize.css for modern browsers
 
 ## Installation
-```
+
+```sh
 npm install modernize
-bower install modernize
 ```
 
-### TODO
-- Remove older Safari fixes
+## Usage
+
+Import in HTML:
+
+```html
+<link href="https://cdn.jsdelivr.net/npm/modernize" rel="stylesheet">
+```
+
+#### Webpack
+
+Import in JS:
+
+```js
+import 'modernize';
+```
+
+or import in CSS or Sass:
+
+```css
+@import 'modernize';
+```
+
+## What does it do?
+
+- Normalizes styles for a wide range of elements
+- Corrects bugs and common browser inconsistencies
+- Explains what code does using detailed comments
+
+## Browser support
+
+- Chrome (latest)
+- Edge (latest)
+- Firefox (latest)
+- Opera (latest)
+- Safari (latest)
+
+## Differences from `normalize.css`
+
+- Includes latest styles from [`csstools/normalize.css`](https://github.com/csstools/normalize.css/blob/11.0.1/normalize.css)
+- Includes and marks opinionated styles from [`necolas/normalize.css`](https://github.com/necolas/normalize.css/blob/8.0.1/normalize.css)
+- Drops support for Internet Explorer
