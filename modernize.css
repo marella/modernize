@@ -19,7 +19,7 @@ html {
  * ========================================================================== */
 
 /**
- * Remove the margin in all browsers.
+ * Remove the margin in all browsers (opinionated).
  */
 
 body {
@@ -104,7 +104,7 @@ small {
 
 /**
  * Prevent `sub` and `sup` elements from affecting the line height in
- * all browsers.
+ * all browsers (opinionated).
  */
 
 sub,
@@ -140,7 +140,7 @@ table {
  * ========================================================================== */
 
 /**
- * 1. Change the font styles in all browsers.
+ * 1. Change the font styles in all browsers (opinionated).
  * 2. Remove the margin in Firefox and Safari.
  */
 
@@ -176,7 +176,8 @@ button,
 }
 
 /**
- * Remove the padding so developers are not caught out when they zero out `fieldset` elements in all browsers.
+ * Remove the padding so developers are not caught out when they zero out
+ * `fieldset` elements in all browsers (opinionated).
  */
 
 legend {
