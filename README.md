@@ -49,4 +49,5 @@ or import in CSS or Sass:
 - Includes latest styles from [`csstools/normalize.css`](https://github.com/csstools/normalize.css/blob/11.0.1/normalize.css)
 - Includes and marks opinionated styles from [`necolas/normalize.css`](https://github.com/necolas/normalize.css/blob/8.0.1/normalize.css)
 - Adds useful defaults such as `box-sizing: border-box`
+- Uses system fonts
 - Drops support for Internet Explorer
