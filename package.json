@@ -1,6 +1,6 @@
 {
   "name": "modernize",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "normalize.css with useful defaults for modern browsers.",
   "files": [
     "*.css"
