@@ -1,6 +1,6 @@
 # [modernize](https://github.com/marella/modernize/blob/main/modernize.css)
 
-normalize.css for modern browsers
+`normalize.css` with useful defaults for modern browsers.
 
 ## Installation
 
@@ -34,6 +34,7 @@ or import in CSS or Sass:
 
 - Normalizes styles for a wide range of elements
 - Corrects bugs and common browser inconsistencies
+- Provides common, useful defaults
 - Explains what code does using detailed comments
 
 ## Browser support
